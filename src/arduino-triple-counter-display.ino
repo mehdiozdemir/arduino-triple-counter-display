@@ -8,19 +8,6 @@ byte directionPin = A1;
 int speed;
 int direction;
 
-/*const byte digits[10][4] = {
-  {0, 1, 1, 0}, 
-  {1, 0, 1, 1}, 
-  {1, 1, 0, 1}, 
-  {1, 1, 1, 0}, 
-  {0, 1, 0, 1}, 
-  {1, 0, 0, 1}, 
-  {1, 0, 1, 0}, 
-  {1, 1, 1, 1}, 
-  {0, 1, 1, 1}, 
-  {1, 1, 0, 0}  
-};*/
-
 int counter = 0;
 int currentDigit[3] = {0, 0, 0}; 
 
